@@ -1,37 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-commerce Furniture App
 
-## Getting Started
+Ứng dụng web bán nội thất hiện đại, phát triển với **Next.js 15**, **React 19**, **Redux Toolkit**, **TypeScript** và **Tailwind CSS**.
 
-First, run the development server:
+## 🚀 Demo
+- Chạy local: [http://localhost:3000](http://localhost:3000)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🖼️ Tính năng
+- Xem danh sách và chi tiết sản phẩm
+- Lọc sản phẩm theo loại, giá, chất liệu, tình trạng kho
+- Thêm/xóa sản phẩm vào giỏ hàng, cập nhật số lượng
+- Thêm/xóa sản phẩm vào wishlist, chuyển sản phẩm từ wishlist sang giỏ hàng
+- Thông báo toast khi thao tác thành công/thất bại
+- Giao diện responsive, hiện đại, dễ sử dụng
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Công nghệ sử dụng
+- Next.js 15
+- React 19
+- Redux Toolkit
+- TypeScript
+- Tailwind CSS
+- React Hot Toast
+- React Icons
+- React Slick Carousel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Cài đặt & chạy dự án
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone repo:**
+    ```bash
+    git clone <repo-url>
+    cd ecommerce-furniture-app
+    ```
 
-## Learn More
+2. **Cài đặt dependencies:**
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Chạy dev server:**
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Truy cập ứng dụng:**
+    - [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🗂️ Cấu trúc thư mục
+- `pages/` – Trang chính và các route
+- `components/` – Các thành phần giao diện
+- `redux/` – Store và slice Redux
+- `public/data/` – Dữ liệu sản phẩm mẫu
+- `public/images/` – Ảnh sản phẩm
 
-## Deploy on Vercel
+## 📝 Lệnh hữu ích
+- `npm run build` – Build production
+- `npm run start` – Start production server
+- `npm run lint` – Kiểm tra code với ESLint
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Ghi chú
+- Dự án sử dụng TypeScript và Tailwind CSS.
+- Dữ liệu sản phẩm mẫu: `public/data/data.json`
+- Ảnh sản phẩm: `public/images/`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# E-Commerce-Furniture
+## 💡 Đóng góp
+Mọi ý kiến đóng góp, pull request đều được hoan nghênh!
